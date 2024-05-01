@@ -1,0 +1,29 @@
+.ol-map {
+  /* min-width: 600px; */
+  /* min-height: 500px; */
+  width: "100%";
+  /* margin-right: 1rem; */
+}
+
+.ol-control {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.ol-full-screen {
+  top: 0.5em;
+  right: 0.5em;
+}
+
+/* MMpk-63 */
+.ol-rotate {
+  position: absolute;
+  top: 9.2rem;
+  left: 0.5rem;
+  width: fit-content;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 999;
+}
